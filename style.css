@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    height: 12vh;
+    align-items: center;
+    background-color: white;
+}
+header h1{
+    letter-spacing: 5px;
+}
+header div{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+header a{
+    text-decoration: none;
+    color: gray;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px;
+
+}
+header a:hover{
+    background-color: yellow;
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+.div1{
+    
+    background: rgba(0,0,0,0.5) url(bg_1.jpg);
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    background-size: cover;
+    background-blend-mode: darken;
+    text-align: center;
+    
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(29, 23, 23);
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    
+}
+.div2 h2{
+    font-size: 50px;
+}
+.div2 p{
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+main img{
+    width: 250px;
+    border-radius: 10px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 450vh;
+    text-align: center;
+    
+}
+main > div{
+    display: flex;
+    justify-content: space-between;
+    width: 90vh;
+    text-align: center;
+    
+
+}
+main p{
+    color: gray;
+}
+main h2{
+    font-size: 20px;
+}
+.mid{
+    background: rgba(0,0,0,0.5) url(bg_1.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    color: white;
+    width: 700px;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 100px;
+}   
+.mid p{
+    color: white;
+}
+
+.blog > div{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.blog a{
+    text-decoration: none;
+    padding: 15px;
+    background-color: rgb(209, 51, 51);
+    color: white;
+    display: inline;
+    width: 80px;
+    border-radius: 15px;
+}
+/*footer*/
+
+footer{
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+footer div{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+}
+footer p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: gray;
+}
+.contact{
+    padding-bottom: 100px;
+}
+.about{
+    padding-bottom: 60px;
+}
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
